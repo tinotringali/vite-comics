@@ -96,9 +96,9 @@ export default{
     li{
         a{
             margin-right: .9375rem;
-            font-size: 12px;
+            font-size: 10px;
             text-decoration: none;
-            color: black;
+            color: #1c1c1c;
             font-weight:bolder;
 
             &:hover{
