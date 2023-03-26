@@ -8,7 +8,13 @@ export default{
 
 <template>
     <footer>
-
+        <nav>
+            <button>SING UP NOW</button>
+            <div>
+                <h3>FOLLOW US</h3>
+                
+            </div>
+        </nav>
     </footer>
 </template>
 

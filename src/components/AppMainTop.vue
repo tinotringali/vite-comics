@@ -1,16 +1,23 @@
 <script>
 
+import AppCards from './AppCards.vue';
+
 export default{
-    name:'AppMain'
+    
+    name:'AppMain',
+
+    components:{
+        AppCards
+    }
 }
 
 </script>
 
 <template>
 <main>
-    <div class="content">
-        <h3>Content goes here</h3>
-    </div>
+    <section>
+        <AppCards></AppCards>
+    </section>
 </main>
 </template>
 

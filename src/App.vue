@@ -5,21 +5,23 @@
   import AppMainBottom from './components/AppMainBottom.vue';
   import AppFooterTop from './components/AppFooterTop.vue';
   import AppFooterBottom from './components/AppFooterBottom.vue';
+  import AppJumbotron from './components/AppJumbotron.vue';
  
-
   export default{
     components:{
       AppHeader,
       AppMainTop,
       AppMainBottom,
       AppFooterTop,
-      AppFooterBottom
+      AppFooterBottom,
+      AppJumbotron
     }
   }
 </script>
 
 <template>
   <AppHeader></AppHeader>
+  <AppJumbotron></AppJumbotron>
   <AppMainTop></AppMainTop>
   <AppMainBottom></AppMainBottom>
   <AppFooterTop></AppFooterTop>
@@ -31,10 +33,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  body{
-    margin: 0 auto;
   }
   
 </style>
